@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav>
       {/* Logo */}
-      <Link to="/">Warior</Link>
+      <Link to="/">Warrior</Link>
 
       {/* Desktop & Mobile Links */}
       <div className={`nav-link ${isOpen ? 'mobile active' : ''}`}>

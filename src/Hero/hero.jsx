@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-text">
-          <h1>I am <span>Horlatech</span></h1>
+          <h1>I am <span>Web3warrior</span></h1>
           <h2>Crafting Digital Experiences with Precision & Creativity</h2>
           <p>
             I specialize in{" "}

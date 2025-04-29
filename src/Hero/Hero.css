@@ -33,12 +33,15 @@
     justify-content: center;
     color: #fff;
     backdrop-filter: blur(2px);
+    font-family: Strike;
+    font-weight: 100;
   }
   
   .hero-text h1 {
     font-size: 52px;
     margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Strike;
+    font-weight: 100;
   }
   
   .hero-text h1 span {
@@ -58,13 +61,15 @@
   }
   
   .typewriter {
-    color: #00d1b2;
+    color: #ebc9a0;
     font-weight: bold;
   }
   
   .desc {
     margin-top: 15px;
     color: #d3d3d3;
+    line-height: 1.7;
+    font-family: Montserrat;
   }
   
   /* Buttons */
@@ -85,23 +90,23 @@
   }
   
   .btn-primary {
-    background-color: #00d1b2;
-    color: #fff;
+    background-color: #ebc9a0;
+    color: #222;
   }
   
   .btn-primary:hover {
-    background-color: #00b89c;
+    background-color: #ebc9a0;
   }
   
   .btn-secondary {
     background-color: transparent;
-    border: 2px solid #00d1b2;
-    color: #00d1b2;
+    border: 2px solid #ebc9a0;
+    color: #ebc9a0;
   }
   
   .btn-secondary:hover {
-    background-color: #00d1b2;
-    color: #fff;
+    background-color: #ebc9a0;
+    color: #222;
   }
   
   /* Image Side */
