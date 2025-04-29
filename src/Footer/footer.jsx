@@ -1,32 +1,32 @@
 // Footer.jsx
 import React from "react";
-import './Footer.css'
+import './Footer.css';
 
 function Footer() {
   const currentYear = new Date().getFullYear(); // Get current year dynamically
   return (
     <div className="footer-container">
       <span className="footer-link">
-        <a href="https://web.facebook.com/hejidev/" className="face">
+        <a href="https://web.facebook.com/" className="face">
           Facebook
         </a>
         <a href="" className="linked">
           Linkedin
         </a>
-        <a href="wa.me/2348130693571" className="what">
+        <a href="wa.me/2347032132937" className="what">
           Whatsapp
         </a>
-        <a href="https://x.com/hejidev" className="twit">
+        <a href="https://x.com/@web3warrior_7" className="twit">
           Twitter
         </a>
-        <a href="https://github.com/Lhurdb19" className="git">
+        <a href="https://github.com/" className="git">
           Github
         </a>
       </span>
 
       <div className="footer-wrapper">
         <div className="lets-container">
-          <a href="/">WARIOR</a>
+          <a href="/">WARRIOR</a>
           <h1>Let’s create something together</h1>
         </div>
 
@@ -52,12 +52,11 @@ function Footer() {
           <div className="link-container">
             <span>
               <h5>Email:</h5>
-              <a href="mailto:222@gmail.com">web3warrior@gmail.com</a>
+              <a href="mailto:webwarrior868@gmail.com">webwarrior868@gmail.com </a>
             </span>
             <span>
               <h5>Phone:</h5>
-              <a href="tel:+2348130693571">Whatsapp</a>
-              <a href="tel:+2347011560069">Call</a>
+              <a href="wa.me/2347032132937">Whatsapp</a>
             </span>
           </div>
         </div>

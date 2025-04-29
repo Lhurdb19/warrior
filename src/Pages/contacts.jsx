@@ -36,18 +36,8 @@ const Contact = () => {
       <div className="address-wrapper">
         <div className="address-container">
           <span>
-            <h5>Address:</h5>
-            <p>Ayekale, Osogbo, Osun State</p>
-          </span>
-
-          <span>
             <h5>Email:</h5>
-            <a href="mailto:hejidev19@gmail.com">hejidev19@gmail.com</a>
-          </span>
-
-          <span>
-            <h5>Phone:</h5>
-            <a href="tel:+2347011560069">+2347011560069</a>
+            <a href="mailto:webwarrior868@gmail.com">Email Address</a>
           </span>
         </div>
 
