@@ -8,7 +8,7 @@ function About() {
   const handleDownload = () => {
       const link = document.createElement("a");
       link.href =
-        "https://www.dropbox.com/scl/fi/2rgz8emhm3hq2bf4ew9hi/Horlatech__web.pdf?rlkey=4nrl3qek0x1i7cvoui6gyv9ev&st=c8e1utnd&dl=0";
+        "https://www.dropbox.com/scl/fi/2rgz8emhm3hq2bf4ew9hi/Horlatech__web.pdf?rlkey=4nrl3qek0x1i7cvoui6gyv9ev&st=c8e1utnd&dl=1";
       link.download = "Horlatech_web.pdf";
       document.body.appendChild(link);
       link.click();
