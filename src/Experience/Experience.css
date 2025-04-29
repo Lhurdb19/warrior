@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/static/Montserrat-Light.ttf);
+  }
+  @font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+  }
+
+.experience-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 100px;
+  }
+  
+  @media screen and (max-width:896px) {
+    .experience-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 60px 10px;
+    }
+  }
+  
+  .experience-container > span {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-family: Montbold;
+    color: #ebc9a0;
+  }
+  
+  .experience-container > h2 {
+    font-size: 30px;
+    font-family: Montserrat;
+    padding: 20px 0;
+    color: #ebc9a0;
+  }
+  @media screen and (max-width:896px) {
+    .experience-container > span {
+      display: flex;
+      gap: 5px;
+      font-size: 10px;
+      font-family: Montbold;
+      color: #ebc9a0;
+    }
+    
+    .experience-container > h2 {
+      font-size: 16px;
+      font-family: Montserrat;
+      padding: 20px 0;
+      color: #ebc9a0;
+    }
+  }
+  
+  .work-experience {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .exp-component {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  @media screen and (max-width:896px) {
+    .work-experience {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0px;
+    }
+    
+    .exp-component {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  
+  .experience-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+  }
+  
+  .experience-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .exp-icon {
+    font-size: 25px;
+  }
+  
+  @media screen and (max-width:896px) {
+    .experience-wrap {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+    }
+    
+    .experience-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+    }
+    
+    .exp-icon {
+      font-size: 15px;
+    }
+  }
+  
+  .exp-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+  
+  .exp-heading > h3 {
+    font-size: 17px;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+  }
+  .exp-heading > p {
+    font-size: 15px;
+  }
+  @media screen and (max-width:896px) {
+    .exp-heading {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 3px;
+      color: #fff;
+      font-family: Montserrat;
+    }
+    
+    .exp-heading > h3 {
+      font-size: 9px;
+      border-right: none;
+      padding-right: 0px;
+    }
+    .exp-heading > p {
+      font-size: 9px;
+    }
+  }
+  
+  .exp-workdone {
+    list-style: none;
+  }
+  
+  .exp-workdone > li {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+  }
+  
+  .exp-workdone > li > p {
+    color: #ebc9a0;
+  }
+  @media screen and (max-width:896px) {
+    .exp-workdone > li {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      line-height: 1.4rem;
+      gap: 5px;
+      font-size: 12px;
+    }
+  }
+  
+  .exp-image {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .exp-image > img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+  }
+  @media screen and (max-width:896px) {
+    .exp-image {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+    
+    .exp-image > img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+    }
+  }

@@ -1,0 +1,229 @@
+/* Footer Container */
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 40px 0;
+  }
+  
+  /* Footer Links */
+  .footer-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .footer-link > a {
+    position: relative;
+    color: #7c7b7b;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effects for social links */
+  .footer-link > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: -1;
+  }
+  
+  .face::before {
+    background: linear-gradient(to top, blue 10%, rgba(0, 0, 0, 0.2) 80%);
+  }
+  .linked::before {
+    background: linear-gradient(to top, black 10%, rgba(134, 130, 130, 0.2) 80%);
+  }
+  .what::before {
+    background: linear-gradient(to top, green 10%, rgba(0, 0, 0, 0.2) 80%);
+  }
+  .twit::before {
+    background: linear-gradient(to top, white 10%, rgba(0, 0, 0, 0.2) 80%);
+  }
+  .git::before {
+    background: linear-gradient(to top, black 10%, rgba(102, 94, 137, 0.2) 80%);
+  }
+  
+  /* Hover Interaction */
+  .footer-link > a:hover {
+    color: white;
+  }
+  .footer-link > a:hover::before {
+    transform: translateY(0);
+  }
+  
+  /* Footer Wrapper */
+  .footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px;
+    box-shadow: 0 0 1px #7c7b7b;
+  }
+  
+  /* Let's Container (Logo and Message) */
+  .lets-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .lets-container > a {
+    color: #ebc9a0;
+    font-size: 30px;
+    font-family: Strike;
+    background: transparent;
+  }
+  
+  .lets-container > h1 {
+    color: #ebc9a0;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    background: transparent;
+  }
+  
+  /* Get Connected Section */
+  .get-con {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .get-con > span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .get-con h5 {
+    font-size: 15px;
+    color: #ebc9a0;
+  }
+  
+  .get-con span > span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .get-con span a {
+    color: #7c7b7b;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  
+  .get-con span a:hover {
+    color: #fff;
+    padding-left: 5px;
+  }
+  
+  /* Link Container (Email and Phone) */
+  .link-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .link-container > span {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .link-container h5 {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #ebc9a0;
+    font-weight: 600;
+  }
+  
+  .link-container a {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #7c7b7b;
+    transition: 0.3s;
+  }
+  
+  .link-container a:hover {
+    color: #bab8b8;
+  }
+  
+  /* Footer Bottom */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .footer > p {
+    font-size: 15px;
+    color: #7c7b7b;
+    font-family: Montserrat;
+  }
+  
+  /* Responsive (Mobile) */
+  @media screen and (max-width: 896px) {
+    .footer-container {
+      padding: 40px 0;
+    }
+  
+    .footer-link {
+      justify-content: flex-start;
+      gap: 5px;
+    }
+  
+    .footer-link > a {
+      padding: 6px;
+    }
+  
+    .footer-wrapper {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .lets-container {
+      width: 100%;
+      gap: 20px;
+      padding: 20px 0;
+    }
+  
+    .lets-container > a {
+      font-size: 30px;
+      color: #ddb686;
+    }
+  
+    .lets-container > h1 {
+      font-size: 15px;
+      color: #bab8b8;
+    }
+  
+    .get-con {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .link-container {
+      width: 100%;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

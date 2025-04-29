@@ -1,0 +1,109 @@
+/* === Base Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  /* === Fonts === */
+  @font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/static/Montserrat-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+  }
+  
+  /* === Navbar Styling === */
+  nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #0b2311;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    gap: 40px;
+  }
+  
+  /* Logo */
+  nav > a {
+    font-family: Strike;
+    font-size: 30px;
+    color: #0b2311;
+    background-color: transparent;
+  }
+  
+  /* Navigation Links */
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: transparent;
+  }
+  
+  .nav-link > a {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #0b2311;
+    background-color: transparent;
+  }
+  
+  /* Toggle Menu (Hamburger) */
+  .toggle-menu {
+    display: none;
+    font-size: 30px;
+    color: #0b2311;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  /* === Mobile Styles === */
+  @media screen and (max-width: 896px) {
+    nav {
+      padding: 10px 20px;
+    }
+  
+    nav > a {
+      font-size: 25px;
+    }
+  
+    .toggle-menu {
+      display: flex;
+    }
+  
+    .nav-link {
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 61px;
+      left: 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 20px;
+      background-color: #fff;
+      transform: translateY(-110%);
+      transition: all 0.3s ease-in-out;
+      z-index: 10;
+    }
+  
+    .nav-link.mobile.active {
+      transform: translateY(0%);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .nav-link > a {
+      font-size: 18px;
+      padding: 10px 0;
+    }
+  }
+  

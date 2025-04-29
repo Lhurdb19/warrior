@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/static/Montserrat-Light.ttf);
+  }
+  @font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+  }
+  
+  
+  /* GET IN TOUCH CONTAINER  */
+  .getintouch-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px;
+    gap: 30px;
+  }
+  
+  @media screen and (max-width:896px) {
+    .getintouch-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 50px 10px;
+      gap: 20px;
+    }
+  }
+  
+  .hand-icon {
+    font-size: 60px;
+    color: #ebc9a0;
+  }
+  
+  .getintouch-container > h4 {
+    font-size: 25px;
+    font-family: Montbold;
+    color: #ebc9a0;
+  }
+  
+  .getintouch-container > h1 {
+    font-size: 60px;
+    font-family: Montbold;
+    font-weight: 600;
+    color: #ebc9a0;
+  }
+  
+  .getintouch-container > a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ebc9a0;
+    padding: 5px 5px 5px 15px;
+    border-radius: 20px;
+    color: #ebc9a0;
+    font-size: 20px;
+  }
+  .getintouch-container > a > .cont-icon {
+    font-size: 30px;
+    background-color: #bab8b8;
+    border-radius: 50%;
+    padding: 5px;
+    color: #0b2311;
+  }
+  .getintouch-container > a:hover {
+    background-color: #ebc9a0;
+    color: #0b2311;
+  }
+  
+  @media screen and (max-width:896px) {
+    .getintouch-container > a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid #ebc9a0;
+      padding: 5px 5px 5px 10px;
+      border-radius: 20px;
+      color: #ebc9a0;
+      font-size: 13px;
+    }
+    .getintouch-container > a > .cont-icon {
+      font-size: 25px;
+      background-color: #bab8b8;
+      border-radius: 50%;
+      padding: 2px;
+      color: #0b2311;
+    }
+  }
